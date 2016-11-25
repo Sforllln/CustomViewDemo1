@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="mTitleText" format="string"/>
+        <attr name="mTitleTextColor" format="color"/>
+        <attr name="mTitleTextSize" format="dimension"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="rainbowbar">
+        <attr name="rainbowbar_hspace" format="dimension"></attr>
+        <attr name="rainbowbar_vspace" format="dimension"></attr>
+        <attr name="rainbowbar_color" format="color"></attr>
+
+    </declare-styleable>
+
+
+</resources>
