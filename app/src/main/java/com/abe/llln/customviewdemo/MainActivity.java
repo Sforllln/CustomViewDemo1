@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         customTitleView = (CustomTitleView) findViewById(R.id.mCheckCode);
         mStepArcView = (StepArcView) findViewById(R.id.mStepView);
         mStepArcView.setCurrentCount(16000,14000);
